@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+<h4 align="center"> 
+	💇🏻 FSW Barber Shop 💈
+</h4>
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<p align="center">
+ <a href="https://barber-shop-ic42g01vn-renatoalbuquerques-projects.vercel.app/" target="_blank">Acesse o site aqui</a>
+</p>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<p align="center">
+	<img alt="Status Concluído" src="https://img.shields.io/badge/STATUS-CONCLU%C3%8DDO-brightgreen">
+</p>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<p align="center">
+ <a href="#-sobre-o-projeto">Sobre</a> •
+ <a href="#-funcionalidades">Funcionalidades</a> •
+ <a href="#-layout">Layout</a> • 
+ <a href="#-tecnologias">Tecnologias</a>
+</p>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 💻 Sobre o projeto
 
-## Learn More
+📄 O FSW Barber Shop é uma aplicação mobile que consiste em dar opções de locais para o cliente usufruir de diversos serviços de barbearia separados por categoria e serviços.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ⚙️ Funcionalidades
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [x] Usuário Logado: (Login feito com o Google)
+  - [x] Pesquisar barbearias
+  - [x] Pesquisar serviços
+  - [x] Agendar serviços
+  - [x] Listar serviços reservados
 
-## Deploy on Vercel
+- [x] Usuário deslogado:
+  - [x] Pesquisar serviços
+  - [x] Pesquisar barbearias
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 🎨 Layout
+
+### Mobile
+
+<p align="center">
+  <img  alt="Tela de home" src="/public/readme1.png" width="250px">
+  <img  alt="Sidebar com usuário logado" src="/public/readme2.png" width="250px">
+  <img  alt="Home da barbearia" src="/public/readme4.png" width="250px">
+  <img  alt="Tela de agendamentos" src="/public/readme3.png" width="250px">
+  <img  alt="Tela de reservas" src="/public/readme5.png" width="250px">
+  <img  alt="Tela de serviços" src="/public/readme6.png" width="250px">
+</p>
+
+---
+
+## 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+#### **Mobile**  ([NextJs](https://https://nextjs.org/)  +  [Shadcn](https://ui.shadcn.com/))
+
+-   **[Shadcn](https://ui.shadcn.com/)**
+-   **[Axios](https://github.com/axios/axios)**
+-   **[Next Auth](https://next-auth.js.org/)**
+
+> Veja o arquivo  [package.json](https://github.com/RenatoAlbuquerque/barber-shop/blob/main/package.json)
+
+#### [](https://github.com/cubos-academy/academy-template-readme-projects#server-nodejs--typescript)**Server**  ([Prisma](https://www.prisma.io/)  +  [NeonDB / PostgreSQL ](https://neon.tech/))
+
+-   **[Prisma](https://www.prisma.io/)**
+-   **[PostgreSQL](https://www.postgresql.org/)**
+-   **[Neon](https://neon.tech/)**
+-   **[ts-node](https://github.com/TypeStrong/ts-node)**
+-   **[dotENV](https://github.com/motdotla/dotenv)**
+
+> Veja o arquivo  [package.json](https://github.com/RenatoAlbuquerque/barber-shop/blob/main/package.json)
+
+#### [](https://github.com/cubos-academy/academy-template-readme-projects#utilit%C3%A1rios)**Utilitários**
+
+-   Commit Conventional:  **[Git Commit msg Linter](https://www.npmjs.com/package/git-commit-msg-linter)**
+-   Ícones:  **[Lucide Icons](https://lucide.dev/icons/)**,  
+-   Fontes:  **[Google Fonts](https://fonts.google.com/)**
+
+---
+
+
+
